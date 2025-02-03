@@ -1,0 +1,278 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header {
+    height:586px;
+    background-color: #74C69D;
+    max-width:100%;
+    padding-top: 35px; 
+}
+
+.navbar{
+    width:1095px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar .logo{
+    width: 174px;
+    height:50px;
+    display: flex;
+    gap:16px;
+}
+.navbar .logo h1{
+    font-family: "Work Sans", serif;
+    font-weight: 500;
+    font-size: 40px;
+    color:#FFFFFF;
+    line-height: 50px;
+}
+.navbar .bar{
+    display: none;
+    color:red
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    height: 25px;
+    gap:28px
+}
+.navbar ul li a{
+    font-weight: 400;
+    font-family: "Work Sans", serif;
+    font-size: 20px;
+    color:#FFFFFF
+}
+.about{
+    display: flex;
+    height:387px;
+    width:1100px;
+    margin: 0 auto;
+    margin-top: 40px!important;
+    justify-content: space-between;
+}
+.about .write{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    width:387px;
+    height:299px;
+    margin-top: 39.5px;
+    margin-top: 39.5px;
+}
+.about .image{
+    height: 378.13px;
+    width: 600px;
+}
+.about h1{
+    font-weight: 700;
+    font-size: 40px;
+    color:#FFFFFF;
+    line-height: 50px;
+    font-family: "Crimson Text", serif;
+}
+.about h2{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Work Sans", serif;
+    color:#FFFFFF
+}
+.about p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Work Sans", serif;
+    color:#FFFFFF;
+    line-height: 18.75px;
+}
+.about button{
+    height:48px;
+    width:158px;
+    font-family: "Work Sans", serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color:#000000;
+    border-color: transparent;
+    border-radius: 5px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.part{
+    width:1080px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 60px!important;
+    justify-content: space-between;
+    align-items: center;
+}
+.part .write{
+    height: 162px;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    width: 383px;
+    margin: 0 auto;
+    align-items: center;
+}
+.part .write p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 5px;
+    color: #74C69D;
+    font-family: "Work Sans", serif;
+}
+.part .write h1{
+    font-weight: 700;
+    font-family: "Crimson Text", serif;
+    font-size: 40px;
+    color:#000000
+}
+.part .write pre{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color:#000000;
+    font-family: "Work Sans", serif;
+}
+.part .logos img{
+    width:1080px;
+    height: 50px;
+}
+.part button{
+    width:158px;
+    height: 48px;
+    background-color: #000000;
+    color:#FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Work Sans", serif;
+    border-radius: 5px;
+    border: none;
+}
+.part2{
+    display: flex;
+    height:431px;
+    width:1140px;
+    margin: 0 auto;
+    margin-top: 73px;
+}
+.part2 .image{
+    height:431.43px;
+    width:579px
+}
+.part2 .write{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 561px;
+    padding-left: 107px;
+}
+.part2 .write_con{
+    height:225px;
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    align-items: flex-start;
+    width: 454px;
+}
+.part2 .write_con h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    color:#212529;
+    font-family: "Crimson Text", serif;
+}
+.part2 .write_con h3{
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Work Sans", serif;
+    color:#21252980;
+    line-height: 18.75px;
+    height: 75px;
+}
+.part2 .write_con button{
+    margin-top: 10px;
+    height:48px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Work Sans", serif;
+    line-height: 20px;
+    width:160px;
+    border-radius: 5px;
+    border: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+@media screen and (max-width:375px){
+    .navbar .bar{
+        display: block;
+        
+    }
+    
+}
+@media screen and (max-width:375px) {
+    .navbar .bar {
+        display: block;
+        color: #FFFFFF;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .navbar {
+        width: 90%;
+        padding: 0 15px;
+    }
+
+    .navbar ul {
+        display: none; /* Hide navigation menu on mobile */
+    }
+
+    .about {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .about .write {
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .about .image {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .about h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .about p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    header {
+        height: auto;
+        padding-bottom: 40px;
+    }
+}
